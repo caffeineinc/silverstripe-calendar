@@ -20,7 +20,7 @@
         }
     ],
     "require": {
-        "php": ">=5.4",
+        "php": ">=7.1",
         "silverstripe/framework": "~4"
     },
     "extra": {
@@ -32,5 +32,10 @@
     },
     "support": {
         "issues": "https://github.com/titledk/silverstripe-calendar/issues"
+    },
+    "autoload": {
+        "psr-4": {
+            "Titledk\\SilverStripe\\Calendar\\": "src/"
+        }
     }
 }
